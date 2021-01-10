@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
  * @author mawl
  */
 @RestController
-@RequestMapping("customers")
-public class ConsumerController {
+@RequestMapping("test")
+public class TestController {
     @GetMapping
-    public String consumer(){
-        return "customers";
+    public String test(){
+        return "test";
     }
 }
